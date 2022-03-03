@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1A374D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+body .counterText {
+  color: #B1D0E0;
+  font-size: 5em;
+}
+body .counterButton {
+  background-color: #6998AB;
+  font-size: 3em;
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,21 +1,31 @@
-body {
+body{
   margin: 0;
   padding: 0;
+}
+
+#__next {
   background-color: #1A374D;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr;
   min-height: 100vh;
   min-width: 100vw;
-  
-  .counterText{
-    color: #B1D0E0;
-    font-size: 5em;
+  grid-template-areas: "chat chat";
+  @media screen and (min-width: 425px ) {
+    grid-template-areas: "contacts chat";
   }
-  .counterButton{
-    background-color: #6998AB;
-    font-size: 3em;
-    color: #fff;
+  
+  .contactList {
+    grid-area: contacts;
+    background-color: yellow;
     
+    .contact{
+    
+    }
+  }
+  
+  .chatGifted {
+    grid-area: chat;
+    background-color: rebeccapurple;
   }
 }

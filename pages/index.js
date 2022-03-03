@@ -1,17 +1,13 @@
-import React, {useState} from 'react';
+import React, {useState, Fragment} from 'react';
 
 
 function HomePage(){
     const [counter, setCounter] = useState(0);
 
-    return <div>
-        <p className="counterText">{counter}</p>
-        <button 
-            className="counterButton" 
-            type={'button'} 
-            onClick={() => setCounter((counter + 1))}
-        >Increase</button>
-    </div>
+    return <Fragment>
+        <div className="contactList"></div>
+        <div className="chatGifted"></div>
+    </Fragment>
 }
 
 export default HomePage

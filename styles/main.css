@@ -1,21 +1,29 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+#__next {
   background-color: #1A374D;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr;
   min-height: 100vh;
   min-width: 100vw;
+  grid-template-areas: "chat chat";
 }
-body .counterText {
-  color: #B1D0E0;
-  font-size: 5em;
+@media screen and (min-width: 425px) {
+  #__next {
+    grid-template-areas: "contacts chat";
+  }
 }
-body .counterButton {
-  background-color: #6998AB;
-  font-size: 3em;
-  color: #fff;
+#__next .contactList {
+  grid-area: contacts;
+  background-color: yellow;
+}
+#__next .chatGifted {
+  grid-area: chat;
+  background-color: rebeccapurple;
 }
 
 /*# sourceMappingURL=main.css.map */

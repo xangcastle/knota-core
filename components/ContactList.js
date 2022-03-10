@@ -1,5 +1,6 @@
 import React from 'react';
-
+import ContactAvatar from "./ContactAvatar";
+import ContactName from "./ContactName";
 
 export default function (props) {
     const contacts = [
@@ -22,8 +23,11 @@ export default function (props) {
     ];
     
     const renderContacts = () => {
-        return contacts.map(contact => <div className={'contact'}>{contact.name}</div>)
+        return contacts.map(contact => <div className={'contact'}>
+            <ContactAvatar contact={contact}/>
+            <ContactName contact={contact}/>
+        </div>)
     }
     
-    return renderContacts()
+    return <div className={props.className}>{renderContacts()}</div>
 }

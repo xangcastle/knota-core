@@ -5,19 +5,19 @@ import ContactName from "./ContactName";
 export default function (props) {
     const contacts = [
         {
-            name: "Contact 1",
+            name: "Oscar Marin",
             number: "",
         },
         {
-            name: "Contact 2",
+            name: "Cesar Ramirez",
             number: "",
         },
         {
-            name: "Contact 3",
+            name: "Marcelo Obando",
             number: "",
         },
         {
-            name: "Contact 4",
+            name: "Mario Robles",
             number: "",
         },
     ];

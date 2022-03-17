@@ -22,3 +22,20 @@ body{
     background-color: rebeccapurple;
   }
 }
+
+.profileContainer {
+  width: 5rem;
+  border-radius: 20rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.7rem;
+
+}
+
+.profileText {
+  font-size: 1.7rem;
+  color: white;
+  font-weight: bold;
+}

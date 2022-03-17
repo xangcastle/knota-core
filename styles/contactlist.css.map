@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["contactlist.scss"],"names":[],"mappings":"AAEA;EACE;EACA","file":"contactlist.css"}
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACX,SAAS,EAAE,QAAQ;EACnB,gBAAgB,EAAE,MAAM;CAKzB",
+    "sources": [
+        "contactlist.scss"
+    ],
+    "names": [],
+    "file": "contactlist.css"
+}

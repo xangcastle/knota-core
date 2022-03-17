@@ -1,0 +1,19 @@
+.ChatSendingArea{
+  background-color: palevioletred;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  padding: 20px;
+
+  .chatTextMaker {
+    width: 60%;
+    input{
+      width: 100%;
+      background-color: #00000044;
+      border: none;
+      outline: none;
+      padding: 15px;
+    }
+  }
+}

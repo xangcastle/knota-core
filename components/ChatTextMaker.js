@@ -1,7 +1,9 @@
 import React from "react";
 
 export default function (props){
-    return <div></div>
+    return <div className={'chatTextMaker'}>
+        <input type="text"/>
+    </div>
 }
 
 // oscar

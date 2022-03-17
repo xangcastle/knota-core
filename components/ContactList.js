@@ -21,13 +21,12 @@ export default function (props) {
             number: "",
         },
     ];
-    
+
     const renderContacts = () => {
         return contacts.map(contact => <div className={'contact'}>
-            <ContactAvatar contact={contact}/>
             <ContactName contact={contact}/>
         </div>)
     }
-    
+
     return <div className={props.className}>{renderContacts()}</div>
 }

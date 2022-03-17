@@ -2,6 +2,24 @@
   grid-area: contacts;
   background-color: yellow;
 }
+.ChatSendingArea {
+  background-color: palevioletred;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  padding: 20px;
+}
+.ChatSendingArea .chatTextMaker {
+  width: 60%;
+}
+.ChatSendingArea .chatTextMaker input {
+  width: 100%;
+  background-color: #00000044;
+  border: none;
+  outline: none;
+  padding: 15px;
+}
 
 body {
   margin: 0;
@@ -10,27 +28,19 @@ body {
 
 #__next {
   background-color: #1A374D;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 70%;
-      grid-template-columns: 30% 70%;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr;
   min-height: 100vh;
   min-width: 100vw;
-      grid-template-areas: "chat chat";
+  grid-template-areas: "chat chat";
 }
-
 @media screen and (min-width: 425px) {
   #__next {
-        grid-template-areas: "contacts chat";
+    grid-template-areas: "contacts chat";
   }
 }
-
 #__next .chatGifted {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: chat;
   background-color: rebeccapurple;
 }
@@ -39,15 +49,9 @@ body {
   width: 5rem;
   border-radius: 20rem;
   height: 5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin: 0.7rem;
 }
 
@@ -56,4 +60,5 @@ body {
   color: white;
   font-weight: bold;
 }
+
 /*# sourceMappingURL=main.css.map */

@@ -25,7 +25,7 @@ export default function (props) {
     const renderContacts = () => {
         return contacts.map(contact => <div className={'contact'}>
             <ContactAvatar contact={contact}/>
-            {/* <ContactName contact={contact}/> */}
+            <ContactName contact={contact}/>
         </div>)
     }
     

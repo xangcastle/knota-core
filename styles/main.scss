@@ -1,4 +1,5 @@
 @import "contactlist";
+@import "chatsendingarea";
 
 body{
   margin: 0;
@@ -16,7 +17,7 @@ body{
   @media screen and (min-width: 425px ) {
     grid-template-areas: "contacts chat";
   }
-  
+
   .chatGifted {
     grid-area: chat;
     background-color: rebeccapurple;

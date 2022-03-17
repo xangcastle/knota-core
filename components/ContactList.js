@@ -5,19 +5,19 @@ import ContactName from "./ContactName";
 export default function (props) {
     const contacts = [
         {
-            name: "Contact 1",
+            name: "Oscar marin Robleto",
             number: "",
         },
         {
-            name: "Contact 2",
+            name: "Cesar Abel",
             number: "",
         },
         {
-            name: "Contact 3",
+            name: "Michael",
             number: "",
         },
         {
-            name: "Contact 4",
+            name: "Vidal Vaquedano",
             number: "",
         },
     ];
@@ -25,7 +25,7 @@ export default function (props) {
     const renderContacts = () => {
         return contacts.map(contact => <div className={'contact'}>
             <ContactAvatar contact={contact}/>
-            <ContactName contact={contact}/>
+            {/* <ContactName contact={contact}/> */}
         </div>)
     }
     

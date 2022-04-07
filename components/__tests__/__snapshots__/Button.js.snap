@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing button component Button component should render successfully 1`] = `
+<div
+  className="button"
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "backgroundColor": "red",
+      "border": "2px solid beige",
+      "borderRadius": "17px",
+      "color": "white",
+      "cursor": "pointer",
+      "fontWeight": "bold",
+      "padding": "20px",
+      "textTransform": "uppercase",
+    }
+  }
+  testID="button-div"
+>
+  My button
+</div>
+`;

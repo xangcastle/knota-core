@@ -1,12 +1,11 @@
 import React from "react";
-import ChatTime from "./ChatTime";
-import TextContainer from "./TextContainer";
 
-export default function (props){
-    return <div>
-        <TextContainer />
-        <ChatTime />
+export default function ({message}){
+    return <div className={`message message-${message.side}`}>
+        <div className={'message-text'}>{message.content}</div>
+        <div className={'message-info'}>
+            <span>{message.name}</span>
+            <span>{message.time.toLocaleTimeString()}</span>
+        </div>
     </div>
 }
-
-// avril

@@ -1,0 +1,11 @@
+.conversation-content {
+  display: flex;
+}
+.conversation-content .message-left {
+  align-self: flex-start;
+}
+.conversation-content .message-right {
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=conversation-content.css.map */

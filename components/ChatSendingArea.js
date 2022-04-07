@@ -4,8 +4,12 @@ import ChatTextMaker from "./ChatTextMaker";
 
 export default function (props){
     return <div className={'ChatSendingArea'}>
-        <Button className={'sendButton'} />
+        <Button text={'+'} style={{
+            border: 'none',
+            backgroundColor: 'orange',
+            padding: '10px',
+        }} onClick={()=>alert('otra cosa')} />
         <ChatTextMaker />
-        <Button className={'additionaOptionsButton'} text={'enviar'} onClick={()=>alert('algo')} />
+        <Button text={'enviar'} onClick={()=>alert('algo')} />
     </div>
 }

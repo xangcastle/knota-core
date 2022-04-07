@@ -1,0 +1,41 @@
+.conversation-content {
+  background-color: red;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .message {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+
+    .message-text {
+      font-size: 2em;
+      color: #b6adad;
+    }
+
+    .message-info {
+      color: #4e5e6b;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .message-left {
+    background-color: #1A374D;
+    align-self: flex-start;
+  }
+
+  .message-right {
+    background-color: palevioletred;
+    align-self: flex-end;
+    .message-text {
+      color: #1a1616;
+    }
+    .message-info {
+      color: #12181c;
+    }
+  }
+}

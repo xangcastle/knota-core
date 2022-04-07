@@ -1,0 +1,19 @@
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+
+.cuadro{
+    background-color: gray;
+}
+
+
+div.container .cuadro {
+    background-color: brown;
+}
+
+div[inventado="true"]{
+    background-color: green;
+}

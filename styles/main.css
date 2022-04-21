@@ -73,7 +73,6 @@
 }
 
 .conversation-content .message-right {
-  background-color: palevioletred;
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
@@ -96,7 +95,6 @@ body {
 }
 
 #__next {
-
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 30% 70%;
@@ -119,7 +117,6 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: chat;
-
 }
 
 .profileContainer {

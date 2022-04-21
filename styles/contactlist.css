@@ -1,5 +1,7 @@
 .contactList {
+  border: 1px solid white;
+  background-color: rgba(26, 55, 77, 0.4);
   grid-area: contacts;
-  background-color: yellow;
 }
+
 /*# sourceMappingURL=contactlist.css.map */

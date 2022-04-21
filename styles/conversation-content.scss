@@ -1,5 +1,4 @@
 .conversation-content {
-  background-color: red;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -29,7 +28,6 @@
   }
 
   .message-right {
-    background-color: palevioletred;
     align-self: flex-end;
     .message-text {
       color: #1a1616;

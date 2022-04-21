@@ -1,11 +1,55 @@
 .conversation-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-}
-.conversation-content .message-left {
-  align-self: flex-start;
-}
-.conversation-content .message-right {
-  align-self: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
+.conversation-content .message {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 80% 20%;
+      grid-template-rows: 80% 20%;
+}
+
+.conversation-content .message .message-text {
+  font-size: 2em;
+  color: #b6adad;
+}
+
+.conversation-content .message .message-info {
+  color: #4e5e6b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.conversation-content .message-left {
+  background-color: #1A374D;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.conversation-content .message-right {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.conversation-content .message-right .message-text {
+  color: #1a1616;
+}
+
+.conversation-content .message-right .message-info {
+  color: #12181c;
+}
 /*# sourceMappingURL=conversation-content.css.map */

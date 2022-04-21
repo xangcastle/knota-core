@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["chatsendingarea.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA","file":"chatsendingarea.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACd,gBAAgB,EAAE,aAAa;EAC/B,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;CAgBd;;AAtBD,AAQE,gBARc,CAQd,cAAc,CAAC;EACb,KAAK,EAAE,GAAG;CAQX;;AAjBH,AAUI,gBAVY,CAQd,cAAc,CAEZ,KAAK,CAAA;EACH,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,SAAS;EAC3B,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;CACd;;AAhBL,AAmBE,gBAnBc,CAmBd,OAAO,AAAA,MAAM,CAAA;EACX,SAAS,EAAE,UAAU;CACtB",
+    "sources": [
+        "chatsendingarea.scss"
+    ],
+    "names": [],
+    "file": "chatsendingarea.css"
+}
